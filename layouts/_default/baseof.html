@@ -9,7 +9,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ block "title" . }}{{ end }}</title>
     {{ partial "html-head.html" . }}
     {{if ne $redirectURL "" }}
       <meta http-equiv="refresh" content="0;{{ $redirectURL }}">
